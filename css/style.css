@@ -1,0 +1,23 @@
+a{
+    color: black;
+}
+
+body > header{
+    display: flex;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+body > header > nav{
+    color: white;
+    float: right;
+    display: flex;
+    width: 60%;
+}
+
+body > header > nav > a{
+    justify-content: space-between;
+    width: 20%;
+    text-align: center;
+}
+
